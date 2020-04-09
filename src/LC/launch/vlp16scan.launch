@@ -1,0 +1,10 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+
+<node name="LaserChooser" pkg="LC" type="LaserChooser" output ="screen">
+   
+  </node>
+
+  <node name="base_laser_tf" pkg="tf" type="static_transform_publisher" args="0.45 0 1.10 0.00 0 0 base_link laser_link 40"/>
+
+</launch>

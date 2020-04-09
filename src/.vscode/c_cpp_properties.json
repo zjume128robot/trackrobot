@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/robot/testlidar/devel/include",
+        "/home/robot/catkin_ws/devel/include",
+        "/home/robot/workspace/track_ws/devel/include",
+        "/home/robot/catkin/devel/include",
+        "/opt/ros/kinetic/include",
+        "/home/robot/catkin_ws/src/avoidance/include",
+        "/home/robot/catkin_ws/src/VINS-Fusion/camera_models/include",
+        "/home/robot/catkin_ws/src/realsense/ddynamic_reconfigure/include",
+        "/home/robot/catkin_ws/src/dg_common/dg_console/include",
+        "/home/robot/catkin_ws/src/dg_common/dg_include/include",
+        "/home/robot/catkin_ws/src/dg_common/dg_msgs/include",
+        "/home/robot/catkin_ws/src/WS-LeGO-LOAM/LeGO-LOAM/include",
+        "/home/robot/catkin_ws/src/map_server/include",
+        "/home/robot/catkin_ws/src/mySerial/include",
+        "/home/robot/catkin_ws/src/realsense/realsense2_camera/include",
+        "/home/robot/catkin_ws/src/serial-master/include",
+        "/home/robot/catkin_ws/src/tunnelsimage/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}

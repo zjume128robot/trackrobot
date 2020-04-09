@@ -1,0 +1,10 @@
+
+#==========ros=============
+. /opt/ros/hydro/setup.zsh
+. ~/install/setup.zsh
+export PATH=$PATH:/opt/ros/hydro/bin
+#export ROS_PACKAGE_PATH=~/catkin/src:$ROS_PACKAGE_PATH
+export LOG4J_CFG_DIR=/home/robot/install/share/dg_log4j/config/log4jcplus.cfg
+# uncomment this for generating core dump
+ulimit -c unlimited
+. ~/.bash_aliases

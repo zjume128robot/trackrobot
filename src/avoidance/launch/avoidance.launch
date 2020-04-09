@@ -1,0 +1,13 @@
+<!-- -->
+
+<launch>
+  <arg name="debug" default="false"/>
+  <arg if="$(arg debug)" name="launch_prefix" value="xterm -rv -e gdb -ex run -args"/>
+  <arg unless="$(arg debug)" name="launch_prefix" value=""/>
+
+  <node name="avoidance_node" pkg="avoidance" type="avoidance_node" output ="screen" launch-prefix="$(arg launch_prefix)">
+    <rosparam file="$(find avoidance)/cfg/avoidance.yaml" command="load" />
+  </node>
+  <include file="$(find laser)/launch/laser.launch"/>
+</launch>
+

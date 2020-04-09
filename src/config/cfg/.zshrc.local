@@ -1,0 +1,8 @@
+
+#==========ros=============
+. /opt/ros/hydro/setup.zsh
+. ~/catkin/devel/setup.zsh
+export PATH=$PATH:/opt/ros/hydro/bin
+export ROS_PACKAGE_PATH=~/catkin/src:$ROS_PACKAGE_PATH
+export LOG4J_CFG_DIR=/home/robot/catkin/src/dg_common/dg_log4j/config/log4jcplus.cfg
+. ~/.bash_aliases

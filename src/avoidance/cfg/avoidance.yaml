@@ -1,0 +1,13 @@
+bAvoid: false
+stopDist: 0.5
+dangerDist: 1.0
+safeDist: 2.0
+
+fastSpeed: 0.4
+slowSpeed: 0.2
+
+moveTime: 120.0
+avoidSpeed: -0.2
+
+halfWidth: 0.4
+minNum: 0
